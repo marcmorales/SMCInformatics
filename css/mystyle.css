@@ -1,0 +1,668 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica, sans-serif, arial;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.top_banner {
+    background: white;
+    height: 20px;
+    padding: 0 10px 2px 10px;
+}
+
+.top_banner a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.top_banner_left {
+    width: 20%;
+    float: left;
+}
+
+.top_banner_right {
+    width: 80%;
+    float: right;
+    text-align: right;
+}
+
+.top_banner a:last-child {
+    margin-right: 0;
+}
+
+.top_banner a img {
+    vertical-align: middle;
+    width: 15px;
+}
+
+.banner {
+    width: 100%;
+    height: 99px;
+    background: #ed1c24;
+}
+
+.banner img {
+    float: left;
+    width: 133px;
+}
+
+.banner ul {
+/*    float: right;*/
+    list-style: none;
+}
+
+.banner ul li {
+    display: inline-block;
+    padding-left: 5%;
+    padding-right: 30px;
+}
+
+.banner ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 99px;
+    font-size: 20px;
+}
+
+.banner ul li a:hover {
+    color: black;
+}
+
+.slider {
+    margin-top: 120px;
+    display: block;
+    height: 300px;
+    overflow: hidden;
+    background-image: url(../images/panorama_cgy2.png);
+    background-position: center;
+}
+
+.slider_define {
+    position: relative;
+    display: table-cell;
+    color: white;
+    font-size: 20px;
+    z-index: 200;
+    background: rgba(133, 132, 132, 0.8);
+    width: 300px;
+    height: 100px;
+    top: 130px;
+    left: 100px;
+    text-align: left;
+    vertical-align: middle;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*
+---------------------------------------
+--------------index page style-------------- 
+---------------------------------------
+*/
+
+.section1 {
+    position: relative;
+    text-align: center;
+    padding: 30px 30% 50px 30%;
+    -webkit-box-shadow: 0 6px 3px -3px #ccc;
+    -moz-box-shadow: 0 6px 3px -3px #ccc;
+    box-shadow: 0 6px 3px -3px #ccc;
+}
+
+.section1 p:first-child {
+    color: #ed1c24;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#section2 {
+    text-align: center;
+    padding: 50px 100px 50px 100px;
+    background: #eee;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.block_list {
+    display: inline-block;
+    width: 600px;
+    text-align: center;
+}
+
+.icon_img {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 50px;
+}
+
+.icon_img img {
+    width: 150px;
+}
+
+.block_content {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.block_content .block_header {
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.block_content p {
+    width: 300px;
+    text-align: left;
+}
+
+.moreServiceLink {
+    width: 600px;
+    height: 50px;
+    background: #ed1c24;
+    line-height: 50px;
+    margin: 0 auto 0px auto;
+}
+.moreServiceLink img {
+    width: 6%;
+    vertical-align: middle;
+}
+
+.moreServiceLink a {
+    text-decoration: none;
+    color: white;
+}
+.moreServiceLink:hover {
+    background: #76090e;
+}
+
+.slider2 {
+    display: block;
+    width: 100%;
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 80px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(../images/calgary_peace_bridge.png);
+    background-position: center;
+    -webkit-box-shadow: 3px -6px 3px -3px #ccc, 0 6px 3px -3px #ccc;
+    -moz-box-shadow: 3px -6px 3px -3px #ccc, 0 6px 3px -3px #ccc;
+    box-shadow: 3px -6px 3px -3px #ccc, 0 6px 3px -3px #ccc;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.slider2 .slider2Text {
+    display: block;
+    width: 650px;
+    margin: 0 auto;
+}
+
+.slider2_link {
+    width: 300px;
+    height: 50px;
+    margin: 30px auto 0 auto;
+    background: #ed1c24;
+    line-height: 50px;
+}
+.slider2_link:hover {
+    background: #76090e;
+}
+
+.slider2_link a {
+    text-decoration: none;
+    color: white;
+}
+
+.section3 {
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    background: linear-gradient( rgba(204, 204, 204, 0.1), rgba(204, 204, 204, 0.7));
+}
+
+.section3 h3 {
+    color: #ed1c24;
+}
+
+.section3 .comment_block {
+    display: inline-block;
+    margin: 50px 50px 0 50px;
+    width: 500px;
+    height: 200px;
+}
+
+.section3 .comment {
+    width: 100%;
+    height: 150px;
+    background: #858484;
+    border-radius: 25px;
+    -webkit-box-shadow: 0 4px 6px -2px black;
+    -moz-box-shadow: 0 4px 6px -2px black;
+    box-shadow: 0 4px 6px -2px black;
+}
+
+.section3 .tip {
+    width: 0px;
+    height: 0px;
+    position: relative;
+    background: transparent;
+    border: 10px solid #858484;
+}
+
+.section3 .tip-down {
+    top: 160px;
+    left: -200px;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.section3 .comment_block .message {
+    padding: 10px 20px;
+    color: white;
+    font-style: italic;
+    text-align: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.section3 .comment_block .customer {
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+
+/*
+---------------------------------------
+--------------service page styles-------------- 
+---------------------------------------
+*/
+
+.serviceSlider {
+    margin-top: 120px;
+    display: block;
+    height: 300px;
+    overflow: hidden;
+    background-image: url(../images/services.png);
+    background-position: center;
+}
+
+.serviceSlider_define {
+    position: relative;
+    display: table-cell;
+    color: white;
+    font-size: 20px;
+    z-index: 200;
+    background: rgba(133, 132, 132, 0.8);
+    width: 150px;
+    height: 50px;
+    top: 130px;
+    left: 100px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.serviceSection1 {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    padding: 50px 30% 0 30%;
+}
+
+hr {
+    height: 1px;
+    width: 90%;
+    margin: 30px auto;
+    background: #ed1c24;
+}
+
+#serviceSection2 {
+    text-align: center;
+    padding: 50px 100px 50px 100px;
+    background: white;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.block_list {
+    display: inline-block;
+    width: 600px;
+    text-align: center;
+}
+
+.serviceIcon_img {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 50px;
+}
+
+.serviceIcon_img img {
+    width: 200px;
+}
+
+.block_content {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.block_content .block_header {
+    margin-bottom: 15px;
+    color: #ed1c24;
+    font-size: 20px;
+    text-align: left;
+}
+
+.block_content p {
+    width: 300px;
+    text-align: left;
+}
+
+/*
+---------------------------------------
+--------------contact page style-------------- 
+---------------------------------------
+*/
+
+.contactSlider {
+    margin-top: 120px;
+    display: block;
+    height: 300px;
+    overflow: hidden;
+    background-image: url(../images/calgarytower.png);
+    background-position: center;
+}
+.contactSection1 {
+    height: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.contactInfo {
+    width: 50%;
+    float: left;
+    padding: 0 30px;
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.contactInfo p:first-child, .contactInfo p:last-child {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.contactInfo p:last-child {
+    margin-top: 30px;
+}
+.contactForm {
+    width: 50%;
+    float: right;
+    padding: 0 30px;
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.contactForm #response {
+    width: 100%;
+    height: 100px;
+    margin: 10px 0;
+}
+
+.contactForm #name, .contactForm #email, .contactForm #phone, .contactForm #msg {
+    width: 500px;
+}
+.contactForm #msg {
+    height: 100px;
+}
+
+.contactForm #submit {
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    background: #ed1c24;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.contactForm .marker {
+    color: red;
+}
+/*
+----------media screens---------------
+*/
+
+@media screen and (max-width: 1300px) {
+    .section1 {
+        padding: 30px 20% 50px 20%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .section1 {
+        padding: 30px 10% 50px 10%;
+    }
+    #section2 {
+        padding: 50px 0 50px 0;
+    }
+    .block_list {
+        width: 100%;
+    }
+    .section3 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /*
+    Service page styles for 960px max-width media screen
+    */
+    .serviceSection1 {
+        padding: 30px 10% 0 10%;
+    }
+    #serviceSection2 {
+        padding: 50px 0 50px 0;
+    }
+}
+.banner .navBtn {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .banner ul {
+        display: none;
+    }
+    .banner ul li {
+        display: block;
+        text-align: right;
+        background: #ed1c24;
+    }
+    .banner .navBtn {
+        display: block;
+        text-align: right;
+        padding-right: 30px;
+        line-height: 99px;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+    }
+    .banner .navBtn:hover {
+    color: black;
+    }
+/*
+    .banner ul {
+        width: 100%;
+        display: none;
+    }
+    .banner ul li {
+        display: block;
+        margin-right: 0;
+        padding-left: 65px;
+    }
+    .banner .navBtn {
+        display: block;
+        text-align: right;
+        padding-right: 30px;
+        line-height: 99px;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+    }
+    .banner .navBtn:hover {
+        color: black;
+    }
+    .banner .navBtn:before {
+        content: "MENU";
+    }
+*/
+    .block_content p {
+        width: 90%;
+    }
+    .slider_define {
+        position: static;
+        display: block;
+        margin: 0 auto;
+        margin-top: 150px;
+        font-size: 16px;
+        width: 250px;
+        height: 50px;
+        text-align: center;
+        vertical-align: middle;
+        padding: 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .slider2 {
+        padding-top: 60px;
+    }
+    .slider2 .slider2Text {
+        width: 210px;
+        font-size: 16px;
+    }
+    .moreServiceLink {
+        width: 85%;
+    }
+    .section3 h3 {
+        color: #ed1c24;
+        margin-bottom: 30px;
+    }
+    .section3 .comment {
+        overflow: auto;
+    }
+    .section3 .comment_block {
+        margin: 0 auto;
+        width: 90%;
+        height: 200px;
+    }
+    .section3 .tip {
+        display: none;
+    }
+    .serviceSlider_define {
+        position: static;
+        display: block;
+        margin: 0 auto;
+        margin-top: 150px;
+        font-size: 16px;
+        width: 250px;
+        height: 50px;
+        text-align: center;
+        vertical-align: middle;
+        padding: 15px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .top_banner_left {
+        width: 80%;
+    }
+    .top_banner_right {
+        width: 20%;
+    }
+    .top_banner_right span {
+        display: none;
+    }
+    .icon_img {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .moreServiceLink {
+        height: 80px;
+        background: #ed1c24;
+        line-height: 35px;
+        margin: 30px auto 0px auto;
+        padding: 10px;
+    }
+}
+
+
+/*
+---------------------------------------
+----------end of index style-----------
+---------------------------------------
+*/
+
+footer {
+    height: 50px;
+    background: #090101;
+    color: white;
+}
+footer .ftCredits {
+    width: 180px;
+    float: left;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+footer .ftLinks {
+    padding-top: 15px;
+    padding-right: 30px;
+}
+
+footer .ftLinks ul {
+    list-style: none;
+}
+
+footer .ftLinks ul li {
+    display: inline-block;
+    float: right;
+}
+
+footer .ftLinks ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}

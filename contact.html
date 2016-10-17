@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="mpatelier">
+    <title></title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <!--JS SCRIPTS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="javascript/myScript.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="top_banner">
+                <div class="top_banner_left">
+                    <a href="https://www.linkedin.com/in/simoncashmore"><img src="images/linkedin.svg"></a>
+                    <a href="https://www.facebook.com/SmcInformaticsInc/"><img src="images/facebook.svg"></a>
+                    <a href="#"><img src="images/google_plus.svg"></a>
+                </div>
+                <!--end of div top_banner_left-->
+                <div class="top_banner_right">
+                    <a href="#"><img src="images/telephone.svg"> <span>403-818-5755</span></a>
+                    <a href="#"><img src="images/email.svg"> <span>simon@smcinformatics.ca</span></a>
+                </div>
+                <!--end of div top_banner_right-->
+            </div>
+            <!--end of top_banner div-->
+            <div class="banner">
+               <a href="index.html">
+                <img src="images/SMC_logo.svg">
+                </a>
+                <span class="navBtn">MENU</span>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <!--
+                    -->
+                    <li><a href="service.html">SERVICES</a></li>
+                    <!--
+                    -->
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <!--end of banner div-->
+        </header>
+        <div class="contactSlider">
+            <div class="serviceSlider_define">
+                <span class="serviceSlider_message">
+                <p>Contact Us</p>
+                </span>
+            </div>
+        </div>
+        <!--end of servicesSlider div-->
+        <div class="contactSection1">
+           <div class="contactInfo">
+            <p>You can contact / email us directly at:</p>
+            <p>simon@smcinformatics.ca</p>
+            <p>403-818-5755</p>
+            <p>Or fill up the form and we will get back to  you as soon as possible.</p>
+            </div>
+            <div class="contactForm">
+
+                    <form method="post" action="index.php" id="myForm">
+                        <div id="response">
+                            <!--This will hold error messages and the response from the server-->
+                        </div>
+                        <!--name input-->
+                        <label for="name">Your Name<span class="marker"> *</span></label>
+                        <br>
+                        <input type="text" id="name" name="name">
+                        <br>
+                        <br>
+
+                        <!--email input-->
+                        <label for="email">Your Email<span class="marker"> *</span></label>
+                        <br>
+                        <input type="text" id="email" name="email">
+                        <br>
+                        <br>
+
+                        <!--phone input-->
+                        <label for="source">Phone</label>
+                        <br>
+                        <input type="text" id="phone" name="phone">
+                        <br>
+                        <br>
+
+                        <!--message input-->
+                        <label for="msg">Message<span class="marker"> *</span></label>
+                        <br>
+                        <textarea name="msg" id="msg"></textarea><br>
+
+                        <input type="submit" name="submit" id="submit" value="SUBMIT">
+                    </form>
+                </div>
+        </div>
+        <footer>
+        <div class="ftCredits">
+            <p>© 2016 SMC Informatics</p>
+        </div>
+        <div class="ftLinks">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+        <!--end of ftLinks div-->
+        </footer>
+    </div>
+    <!--end of wrapper div-->
+</body>
+
+</html>
